@@ -1,0 +1,40 @@
+.person__reference {
+  text-decoration: none;
+  margin-bottom: 0px;
+  border-color: var(--textlight);
+  margin-bottom: 10px;
+}
+.person__reference:hover {
+  text-decoration: none;
+}
+.person__reference hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.person__reference h2 {
+  padding-top: 20px;
+  color: var(--textdark);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.person__reference p {
+  color: var(--textlight);
+  font-size: 17px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.Person:hover {
+  background-color: gainsboro;
+}
+.Icon {
+  color: var(--textdark);
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 10px;
+}
