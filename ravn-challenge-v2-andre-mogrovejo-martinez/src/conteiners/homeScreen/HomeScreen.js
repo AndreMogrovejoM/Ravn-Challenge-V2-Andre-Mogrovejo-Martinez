@@ -6,22 +6,22 @@ import PeopleListQuery from '../../components/peopleList/PeopleList.query';
 function HomeScreen() {
     return (
         <div className="conteiner__homescreen">
-        <Row>
-            <Col xs={4}>
-            <div className="Left"> 
-                <PeopleListQuery/>
-            </div>
-                
-            </Col>
-            <Col xs={8}>
-            <div className="Right"> 
-                <PeopleInfo/>
-            </div>
-            </Col>
+            <Row>
+                <Col xs={4}>
+                <div className="Left"> 
+                    <PeopleListQuery/>
+                </div>
+                </Col>
 
-        </Row>            
+                <Col xs={8}>
+                <div className="Right"> 
+                    <PeopleInfo/>
+                </div>
+                </Col>
+                
+            </Row>            
         </div>
     )
 }
 
-export default HomeScreen
+export default HomeScreen;

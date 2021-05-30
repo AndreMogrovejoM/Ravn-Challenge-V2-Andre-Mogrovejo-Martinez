@@ -1,0 +1,39 @@
+.container__detail {
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.title {
+  margin-top: 3%;
+  font-size: 17pt;
+  text-align: left;
+  color: #333333;
+  font-weight: bold;
+}
+
+.info__content h2.header {
+  margin: 10px;
+  font-size: 17pt;
+  color: var(--textlight);
+  text-align: left;
+  font-weight: bold;
+}
+.info__content h2.text {
+  font-size: 17pt;
+  color: var(--textdark);
+  font-weight: bold;
+  text-align: right;
+}
+
+.info__content hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 960px) {
+  .container__detail {
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
