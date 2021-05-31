@@ -4,6 +4,8 @@ Ravn-Challenge-V2-Andre-Mogrovejo-Martinez
 
 ## Description
 
+LIVE LINK VERSION HERE: [LIVE-SWAPI](https://swapi-7659f.web.app)
+
 This is a web app who uses an completely open API from Apollo Client named Star Wars Api ([SWAPI](https://swapi.dev)) to query and get data, you can get more information about this API in the following link [SWAPI](https://swapi.dev).
 
 With this API we can get data about characters like: name, homeworld, eye color, hair color, birth year, vehicles used, etc.
@@ -45,6 +47,40 @@ yarn add ...
 ## DATABASE
 
 [SWAPI](https://swapi.dev) The Star Wars API: All the Star Wars data you've ever wanted: Planets, Spaceships, Vehicles, People, Films and Species From all SEVEN Star Wars films Now with The Force Awakens data!
+
+## Deploy
+
+LIVE LINK VERSION HERE: [LIVE-SWAPI](https://swapi-7659f.web.app)
+
+Install firebase-tools
+
+```bash
+npm install -g firebase-tools
+```
+
+Login into firebase
+
+```bash
+firebase login
+```
+
+Init firebase
+
+```bash
+firebase init
+```
+
+Build app
+
+```bash
+yarn run build
+```
+
+Deploy firebase
+
+```bash
+firebase deploy
+```
 
 ## Run App
 
@@ -110,7 +146,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Special thanks
-
-Special thanks to [Sonny Sangha](https://www.youtube.com/user/ssangha32) to guide me in his live codes.
