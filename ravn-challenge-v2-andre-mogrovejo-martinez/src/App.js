@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="navbar navbar-rvn fixed-top">
+      <nav className="navbar navbar-ravn fixed-top">
             <p> Ravn Star Wars Registry</p>
       </nav>
       <Router>

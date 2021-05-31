@@ -1,18 +1,25 @@
 import React from 'react';
-import './PeopleInfo.css';
 import { useQuery } from '@apollo/client';
 import { PEOPLEINFO } from '../../backend/apolloQuery';
 import { withRouter } from 'react-router-dom';
+import { Row, Col } from 'react-bootstrap';
+import './PeopleInfo.css';
 
-function UpperCaseFirstLetter(string){
+function ToUpperFirst(string){
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
 const INFO = ({ header, text }) => {
     return (
         <div className="info__content">
-            <h2 className="header">{header}</h2>
-            <h2 className="text">{UpperCaseFirstLetter(text)}</h2>
+            <Row>
+                <Col xs={6}>
+                    <h2 className="header">{header}</h2>
+                </Col>
+                <Col xs={6}>
+                    <h2 className="text">{ToUpperFirst(text)}</h2>
+                </Col>         
+            </Row>
             <hr/>
         </div>
     )
@@ -30,17 +37,11 @@ function PeopleInfo({match:{params:{id}}}) {
     <>
         <div className="container__detail">
             <div className="title">General Information</div>
-            <INFO header={"Eye Color"} text={ppl__info.eyeColor}/>
-            <INFO header={"Hair Color"} text={ppl__info.hairColor}/>
-            <INFO header={"Skin Color"} text={ppl__info.skinColor}/>
-            <INFO header={"Birth Year"} text={ppl__info.birthYear}/>
-
-            {
-                ppl__info.vehicleConnection.vehicles.length > 0 ?
-                <div className="title">Vehicles</div>
-                :
-                <div className="title">No Vehicles Found </div>
-            }
+                <INFO header={"Eye Color"} text={ppl__info.eyeColor}/>
+                <INFO header={"Hair Color"} text={ppl__info.hairColor}/>
+                <INFO header={"Skin Color"} text={ppl__info.skinColor}/>
+                <INFO header={"Birth Year"} text={ppl__info.birthYear}/>
+            <div className="title">Vehicles</div>
             {
                 ppl__info.vehicleConnection.vehicles.map((vehicle) => (
                     <INFO key={vehicle.name} header={vehicle.name} text={''}/>

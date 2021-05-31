@@ -4,11 +4,3 @@
   height: 100vh;
   width: 100vw;
 }
-.container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-  max-width: max-content;
-  max-height: max-content;
-}

@@ -11,8 +11,12 @@
   font-weight: bold;
 }
 
+.info__content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .info__content h2.header {
-  margin: 10px;
   font-size: 17pt;
   color: var(--textlight);
   text-align: left;

@@ -1,0 +1,11 @@
+.Loader {
+  text-align: center;
+  padding: 16px;
+}
+
+.Loader > span {
+  padding-left: 8px;
+  color: var(--textlight);
+  font-weight: bold;
+  font-size: 17pt;
+}

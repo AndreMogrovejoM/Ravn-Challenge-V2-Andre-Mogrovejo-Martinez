@@ -4,14 +4,11 @@ import {
     InMemoryCache
  } from "@apollo/client";
 
-const URI_BASE = 'https://swapi-graphql.netlify.app/.netlify/functions/index';
-
-const httpLink = new HttpLink({
-  uri: URI_BASE,
-});
-const cache = new InMemoryCache();
+const URI = 'https://swapi-graphql.netlify.app/.netlify/functions/index';
 
 export const client = new ApolloClient({
-    link : httpLink,
-    cache : cache,
+    cache : new InMemoryCache(),
+    link: new HttpLink({
+      uri: URI,
+    })
 });
