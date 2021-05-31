@@ -56,20 +56,17 @@ Execute `yarn start` to run the web app at `http://localhost:3000/`.
 
 [React-netx-clone-yt](https://netx-clone-yt.web.app)
 
-### Start
+### Main Screen
 
-![Start](https://github.com/Skdiy/
-Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/MainScreen.JPG)
+![MainScreen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/MainScreen.JPG)
 
-### SignIn
+### Loading Screen
 
-![SignIn](https://github.com/Skdiy/
-Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/LoadingScreen.JPG)
+![LoadingScreen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/LoadingScreen.jpg)
 
-### Edit Profiles
+### Error Screen
 
-![Edit Profiles](https://github.com/Skdiy/
-Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/ErrorScreen.JPG)
+![ErrorScreen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo-Martinez/blob/main/ravn-challenge-v2-andre-mogrovejo-martinez/captures/ErrorScreen.JPG)
 
 ## Available Scripts
 
